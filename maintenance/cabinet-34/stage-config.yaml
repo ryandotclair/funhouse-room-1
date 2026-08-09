@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: funhouse-room-room1-stage
+data:
+  # Operator flips this for Stage A ↔ B (GitOps mutate).
+  STAGE: "a"
+  ROOM_ID: "room1"
+  ROOM_TOKEN: "GJ2vQ7bXoCoQ"
+  ROOMS_HOST: "riddler.rycr.io"
