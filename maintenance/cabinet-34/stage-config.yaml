@@ -6,5 +6,5 @@ data:
   # Operator flips this for Stage A ↔ B (GitOps mutate).
   STAGE: "a"
   ROOM_ID: "room1"
-  ROOM_TOKEN: "GJ2vQ7bXoCoQ"
+  ROOM_TOKEN: "dycLMdmebafz"
   ROOMS_HOST: "riddler.rycr.io"
