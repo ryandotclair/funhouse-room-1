@@ -12,9 +12,11 @@ spec:
       labels:
         funhouse.riddler/room-id: room1
     spec:
+      nodeSelector:
+        app: riddler
       containers:
         - name: room-site
-          image: 10.38.48.51:5000/riddler-dev/room-site:latest
+          image: 10.38.48.51:5000/riddler-dev/room-site:1786317190
           imagePullPolicy: Always
           ports:
             - name: http
