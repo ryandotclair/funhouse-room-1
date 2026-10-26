@@ -2,13 +2,10 @@
 # NKP already fronts Traefik. Copying this blindly is how you get a second opinion
 # you did not ask for.
 #
-# Rough shape the live desk page used last time anyone checked:
-#   Host(`riddler.nkplab.com`) && PathPrefix(`/r/<full-token>/`)
-#
 # middlewares lie, paths don't
-# TOKEN_PART_B=UIqfj
+# TOKEN_PART_B=kWfT1i
 #
-# Goon17: if CD just "undid" your manifest, check who was near the red console.
+# Goon17: if CD just "undid" your manifest, check who was near the console.
 #
 apiVersion: traefik.io/v1alpha1
 kind: IngressRoute
